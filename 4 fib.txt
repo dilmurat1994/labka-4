@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>lab4-4</title>
+<body>
+<script language="Javascript">
+  function fibonacci(n){
+    if (n <= 1)  {
+      return n;
+    } else {
+      return fibonacci(n-1) + fibonacci(n-2);
+    }
+  }
+  var n = 10;
+  for (var i = 1; i <= n; i++) {
+    document.writeln(i , ": ", fibonacci(i),"<br>");
+  }
+   
+ 
+</script>
+</body>
+</html>

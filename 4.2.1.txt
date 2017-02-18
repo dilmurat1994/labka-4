@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>lab4-2XOR</title>
+<body>
+<script language="Javascript">
+ function fXOR(a, b) {
+  if (a ^ b) {
+  	return 1;
+  } else
+  	return 0;
+      
+}
+var a = 1; var b = 0;
+XOR = fXOR(a,b);
+  document.write("XOR result: ",XOR);
+ 
+</script>
+</body>
+</html>
